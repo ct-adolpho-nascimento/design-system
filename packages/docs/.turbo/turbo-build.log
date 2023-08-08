@@ -1,0 +1,205 @@
+
+> @adolphocavalcanti-ui/docs@1.0.0 build
+> storybook build
+
+@storybook/cli v7.1.0
+
+info => Cleaning outputDir: /storybook-static
+info => Loading presets
+info => Building manager..
+info => Manager built (136 ms)
+info => Copying static files: /home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/manager/static at /home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/storybook-static/sb-common-assets
+vite v4.4.6 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/jest-util/build/requireOrImportModule.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "url" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/jest-util/build/requireOrImportModule.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "fs" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/graceful-fs/graceful-fs.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "constants" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/graceful-fs/polyfills.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "stream" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/graceful-fs/legacy-streams.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/picomatch/lib/picomatch.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/picomatch/lib/utils.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/picomatch/lib/constants.js". See http://vitejs.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+../../node_modules/telejson/dist/index.mjs (1394:15) Use of eval in "../../node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+../../node_modules/telejson/dist/index.mjs (1397:18) Use of eval in "../../node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 697 modules transformed.
+✓ built in 4.20s
+"default" is not exported by "../react/dist/index.mjs", imported by "src/stories/Table.stories.tsx".
+file: /home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/stories/Table.stories.tsx:2:7
+1: import type { StoryObj, Meta } from '@storybook/react';
+2: import Table, { TableProps } from '@adolphocavalcanti-ui/react';
+          ^
+3: import React from 'react';
+4: export default ({
+ERR! RollupError: "default" is not exported by "../react/dist/index.mjs", imported by "src/stories/Table.stories.tsx".
+ERR!     at error (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:2245:30)
+ERR!     at Module.error (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:13584:16)
+ERR!     at Module.traceVariable (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:14009:29)
+ERR!     at ModuleScope.findVariable (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:12527:39)
+ERR!     at Identifier.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:8247:40)
+ERR!     at Property.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5853:23)
+ERR!     at ObjectExpression.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5849:28)
+ERR!     at ExportDefaultDeclaration.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5853:23)
+ERR!     at Program.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5849:28)
+ERR!     at Module.bindReferences (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:13580:18)
+ERR!     at Graph.sortModules (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:25645:20)
+ERR!     at Graph.build (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:25529:14)
+ERR!     at async file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:26490:13
+ERR!     at async catchUnfinishedHookActions (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:25702:16)
+ERR!     at async rollupInternal (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:26485:5)
+ERR!     at async Module.build (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/vite/dist/node/chunks/dep-a8e37fae.js:47933:18)
+ERR!     at async build (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/builder-vite/dist/index.js:159:11052)
+ERR!     at async Promise.all (index 0)
+ERR!     at async Module.build2 (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/builder-vite/dist/index.js:159:13369)
+ERR!     at async Promise.all (index 0)
+ERR!     at async buildStaticStandalone (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/core-server/dist/index.js:109:1799)
+ERR!     at async withTelemetry (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/core-server/dist/index.js:113:3659)
+ERR!     at async build (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/cli/dist/generate.js:435:1059)
+ERR!     at async Command.<anonymous> (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/cli/dist/generate.js:438:125)
+ERR!  Error [RollupError]: "default" is not exported by "../react/dist/index.mjs", imported by "src/stories/Table.stories.tsx".
+ERR!     at error (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:2245:30)
+ERR!     at Module.error (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:13584:16)
+ERR!     at Module.traceVariable (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:14009:29)
+ERR!     at ModuleScope.findVariable (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:12527:39)
+ERR!     at Identifier.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:8247:40)
+ERR!     at Property.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5853:23)
+ERR!     at ObjectExpression.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5849:28)
+ERR!     at ExportDefaultDeclaration.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5853:23)
+ERR!     at Program.bind (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:5849:28)
+ERR!     at Module.bindReferences (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:13580:18)
+ERR!     at Graph.sortModules (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:25645:20)
+ERR!     at Graph.build (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:25529:14)
+ERR!     at async file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:26490:13
+ERR!     at async catchUnfinishedHookActions (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:25702:16)
+ERR!     at async rollupInternal (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/rollup/dist/es/shared/node-entry.js:26485:5)
+ERR!     at async Module.build (file:///home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/vite/dist/node/chunks/dep-a8e37fae.js:47933:18)
+ERR!     at async build (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/builder-vite/dist/index.js:159:11052)
+ERR!     at async Promise.all (index 0)
+ERR!     at async Module.build2 (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/builder-vite/dist/index.js:159:13369)
+ERR!     at async Promise.all (index 0)
+ERR!     at async buildStaticStandalone (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/core-server/dist/index.js:109:1799)
+ERR!     at async withTelemetry (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/core-server/dist/index.js:113:3659)
+ERR!     at async build (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/cli/dist/generate.js:435:1059)
+ERR!     at async Command.<anonymous> (/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/cli/dist/generate.js:438:125) {
+ERR!   binding: 'default',
+ERR!   code: 'MISSING_EXPORT',
+ERR!   exporter: '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/react/dist/index.mjs',
+ERR!   id: '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/stories/Table.stories.tsx',
+ERR!   url: 'https://rollupjs.org/troubleshooting/#error-name-is-not-exported-by-module',
+ERR!   pos: 48,
+ERR!   loc: {
+ERR!     column: 7,
+ERR!     file: '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/stories/Table.stories.tsx',
+ERR!     line: 2
+ERR!   },
+ERR!   frame: "1: import type { StoryObj, Meta } from '@storybook/react';\n" +
+ERR!     "2: import Table, { TableProps } from '@adolphocavalcanti-ui/react';\n" +
+ERR!     '          ^\n' +
+ERR!     "3: import React from 'react';\n" +
+ERR!     '4: export default ({',
+ERR!   watchFiles: [
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/iframe.html',
+ERR!     '/virtual:/@storybook/builder-vite/vite-app.js',
+ERR!     '\x00vite/modulepreload-polyfill',
+ERR!     '/virtual:/@storybook/builder-vite/setup-addons.js',
+ERR!     '/virtual:/@storybook/builder-vite/storybook-stories.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/react/dist/config.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-links/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-essentials/dist/docs/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-essentials/dist/actions/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-essentials/dist/backgrounds/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-essentials/dist/measure/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-essentials/dist/outline/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-essentials/dist/highlight/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-interactions/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/.storybook/preview.js',
+ERR!     '\x00vite/preload-helper',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/prop-types/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/html-tags/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/escodegen/escodegen.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/ts-dedent/esm/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn-jsx/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/isPlainObject.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/isFunction.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/isString.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/react-element-to-jsx-string/dist/esm/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/react/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/react/dist/chunk-JWY6Y6NU.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/docs-tools/dist/index.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/react/node_modules/acorn/dist/acorn.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn-walk/dist/walk.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-links/dist/chunk-VJY7NXNQ.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-links/dist/chunk-DXNAW7Q2.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-links/dist/chunk-JT3VIYBO.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-docs/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-actions/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-backgrounds/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-outline/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-highlight/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-measure/dist/preview.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/jest-mock/build/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-interactions/dist/chunk-NNAAFZ4U.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/global/dist/index.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/instrumenter/dist/index.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/package.json',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/theming/dist/index.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/prop-types/factoryWithThrowingShims.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/html-tags/html-tags.json',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/estraverse/estraverse.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/esutils/lib/utils.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/escodegen/node_modules/source-map/source-map.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/escodegen/package.json',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn-jsx/xhtml.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn/dist/acorn.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/_baseGetTag.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/_getPrototype.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/isObjectLike.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/isObject.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/isArray.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@base2/pretty-print-object/dist/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/react-element-to-jsx-string/node_modules/react-is/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/is-plain-object/dist/is-plain-object.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/react-dom-shim/dist/react-18.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/react/cjs/react.production.min.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/mapValues.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/doctrine/lib/doctrine.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/csf/dist/index.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-docs/dist/DocsRenderer-3PUGWF3O.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-actions/dist/chunk-AY7I2SME.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-actions/dist/chunk-VWCVBQ22.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-backgrounds/dist/chunk-GRJZJKJ4.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-outline/dist/chunk-2DMOCDBJ.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-highlight/dist/chunk-33ALZPRS.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/tiny-invariant/dist/esm/tiny-invariant.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/addon-measure/dist/chunk-YIXVQKZ5.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/jest-util/build/index.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/prop-types/lib/ReactPropTypesSecret.js',
+ERR!     '\x00commonjsHelpers.js',
+ERR!     '\x00/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/html-tags/html-tags.json?commonjs-proxy',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.browser.esm.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/memoizerific/memoizerific.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/@storybook/theming/dist/chunk-4NMOSTKD.mjs',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/home.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/space.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/radii.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/line-height.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/fonts.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/font-weights.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/font-sizes.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/pages/tokens/colors.stories.mdx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/packages/docs/src/stories/Table.stories.tsx',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/esutils/lib/ast.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/esutils/lib/code.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/esutils/lib/keyword.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/escodegen/node_modules/source-map/lib/source-map-generator.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/escodegen/node_modules/source-map/lib/source-map-consumer.js',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/escodegen/node_modules/source-map/lib/source-node.js',
+ERR!     '\x00/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn-jsx/index.js?commonjs-module',
+ERR!     '\x00/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn-jsx/xhtml.js?commonjs-proxy',
+ERR!     '\x00/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/acorn/dist/acorn.js?commonjs-module',
+ERR!     '/home/adolpho/Documentos/my-projects/ignite/design-system/node_modules/lodash/_Symbol.js',
+ERR!     ... 600 more items
+ERR!   ]
+ERR! }
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39m
